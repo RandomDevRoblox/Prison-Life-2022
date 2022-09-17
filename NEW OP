@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("My Turtle Drowned Prison Life Gui", "GrapeTheme")
+
+-- BEST
+local Number1 = Window:NewTab("Number1 ")
+local Number1Section = Number1:NewSection("Number1")
+
+
+Number1Section:NewButton("Vynixius", "Best Script for different games", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
+end)
+
+-- NUMBER 2
+local Number2 = Window:NewTab("Number2")
+local Number2Section = Number2:NewSection("Number2")
+
+
+Number2Section:NewButton("Prevail X", "nice features", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
